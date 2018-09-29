@@ -5,8 +5,8 @@ def line(katz_deli)
   else
     line="The line is currently:"
 
-    katz_deli.each_with_index do |name, index|
-      message += " #{index.to_i+1}. #{name}"
+    katz_deli.each_with_index do |value, index|
+      line += " #{index.to_i+1}. #{value}"
     end
     puts "#{line}"
   end
