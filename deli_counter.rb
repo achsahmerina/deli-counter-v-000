@@ -8,5 +8,7 @@ def line(katz_deli)
       line += " #{index.to_i+1}. #{name}"
     end
     puts "#{line}"
-  end
-  end
+    end
+end
+
+def take_a_number(katz_deli, name)
